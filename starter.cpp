@@ -33,7 +33,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int pos = 0;
 	int start=0;
     
-	cout<<"Vul je command in"<<endl;
+	cout<<"Enter your task"<<endl;
 	
 	bool go = true;
     //   C:/FastTask
@@ -159,7 +159,7 @@ int _tmain(int argc, _TCHAR* argv[])
                     }
                 }
 				start = 0;
-				cout<<"vul je subcommand in"<<endl;
+				cout<<"Enter subtask."<<endl;
 				pos++;
 			} else 	if (pos == 1)
 			{
@@ -181,7 +181,7 @@ int _tmain(int argc, _TCHAR* argv[])
                     }
                 }
                 start = 0;
-				cout<<"vul je data in"<<endl;	
+				cout<<"Enter name of task:"<<endl;	
 				pos++;
 			} else if (pos ==2)
 			{
